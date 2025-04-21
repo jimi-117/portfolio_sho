@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-natural-50 text-natural-800 dark:bg-natural-900 dark:text-natural-100;
+  @apply min-h-screen;
+  @apply transition-colors duration-300;
+  background-image: url('/textures/washi-light.png');
+}
+
+body.dark {
+  background-image: url('/textures/washi-dark.png');
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-display;
+  @apply leading-tight;
+}
+
+h1 {
+  @apply text-4xl md:text-5xl lg:text-6xl;
+  @apply font-bold;
+}
+
+h2 {
+  @apply text-3xl md:text-4xl;
+  @apply font-semibold;
+}
+
+h3 {
+  @apply text-2xl md:text-3xl;
+  @apply font-medium;
+}
+
+p {
+  @apply leading-relaxed;
+}
+
+section {
+  @apply py-16 md:py-24;
+}
+
+.section-container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.btn {
+  @apply px-4 py-2 rounded-md font-medium transition-all duration-200;
+}
+
+.btn-primary {
+  @apply bg-primary-600 text-white hover:bg-primary-700;
+}
+
+.btn-secondary {
+  @apply bg-secondary-600 text-white hover:bg-secondary-700;
+}
+
+.btn-outline {
+  @apply border border-natural-300 dark:border-natural-700 hover:bg-natural-100 dark:hover:bg-natural-800;
+}
