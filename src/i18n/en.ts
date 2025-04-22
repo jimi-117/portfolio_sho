@@ -12,7 +12,7 @@ export default {
     
     // Hero Section
     'hero.title': 'Hi! I\'m Sho Miyagi',
-    'hero.subtitle': 'AI & Data | Web | Cloud Development',
+    'hero.subtitle': 'AI & Data | Web | Cloud',
     'hero.intro': 'Hi! I\'m Sho, a Japanese developer and former tutor turned full-stack AI developper. I specialize in uncovering meaningful insights with data science and machine learning, while also working across cloud systems and modern web technologies. Nature-loving, music-obsessed dad.',
     'hero.bio': 'Born in Okinawa, Japan in 1989. Moved to France in 2015. Completed Simplon.co Grand Ouest: Ecole IA Microsoft by Simplon in 2023. Currently in Alternance at Laboratoire végétale Yves Rocher since 2024.',
     'hero.interests': 'I love: Music, Guitar, SUP, Trekking, Photography, Gaming, Indy hacking',

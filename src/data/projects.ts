@@ -7,7 +7,7 @@ export const projects: WorkProject[] = [
     description: 'works.portfolio.description',
     image: '/images/works/portfolio.jpg',
     icon: 'mdi:web',
-    githubUrl: 'https://github.com/shomiyagi/portfolio',
+    githubUrl: 'https://github.com/jimi-117/portfolio_sho',
   },
   {
     id: 'yolo-llama',

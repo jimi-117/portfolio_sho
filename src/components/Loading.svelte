@@ -15,7 +15,7 @@
 >
   <div class="text-center space-y-12" in:fade={{ duration: 1000 }}>
     <!-- Coffee cup animation -->
-    <div class="relative w-24 h-24 mx-auto">
+    <div class="relative w-18 h-18 mx-auto">
       <div class="absolute inset-0 flex items-center justify-center">
         <!-- Cup -->
         <div
@@ -27,7 +27,7 @@
           ></div>
           <!-- Coffee -->
           <div
-            class="absolute bottom-0 left-0 right-0 bg-primary-600 dark:bg-primary-400 rounded-b-2xl animate-coffee"
+            class="absolute bottom-0 left-0 right-0 bg-warning-700 dark:bg-primary-400 rounded-b-2xl animate-coffee"
           >
             <div
               class="absolute -top-1 left-0 right-0 h-1 bg-white/20 transform -rotate-3"
@@ -48,7 +48,6 @@
         </div>
       </div>
     </div>
-
     <div>
       <h1
         class="text-5xl md:text-7xl font-display font-bold mb-4 tracking-wider"
