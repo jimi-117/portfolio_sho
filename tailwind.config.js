@@ -98,8 +98,8 @@ export default {
           },
         },
         fontFamily: {
-          sans: ['Inter', 'sans-serif'],
-          display: ['Playfair Display', 'serif', 'recoleta'],
+          sans: ['Raleway','Inter', 'sans-serif'],
+          display: ['Playfair Display', 'serif'],
         },
         backgroundImage: {
           'washi-light': "url('/textures/washi-light.png')",
