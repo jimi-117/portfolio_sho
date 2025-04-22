@@ -7,7 +7,7 @@ export const projects: WorkProject[] = [
     description: 'works.portfolio.description',
     image: '/images/works/portfolio.jpg',
     icon: 'mdi:web',
-    githubUrl: 'https://github.com/shomiyagi/portfolio',
+    githubUrl: 'https://github.com/jimi-117/portfolio_sho',
   },
   {
     id: 'yolo-llama',
@@ -15,7 +15,7 @@ export const projects: WorkProject[] = [
     description: 'works.yolo.description',
     image: '/images/works/yolo-llama.jpg',
     icon: 'mdi:brain',
-    githubUrl: 'https://github.com/shomiyagi/yolo-llama',
+    githubUrl: 'https://github.com/jimi-117/yolo11_llama3.2',
   },
   {
     id: 'conv2doc',
@@ -23,7 +23,7 @@ export const projects: WorkProject[] = [
     description: 'works.conv2doc.description',
     image: '/images/works/conv2doc.jpg',
     icon: 'mdi:file-document',
-    githubUrl: 'https://github.com/shomiyagi/conv2doc',
+    githubUrl: 'https://github.com/jimi-117/jpg_converter',
   },
   {
     id: 'data-science',
@@ -31,6 +31,6 @@ export const projects: WorkProject[] = [
     description: 'works.datascience.description',
     image: '/images/works/data-science.jpg',
     icon: 'mdi:chart-box',
-    githubUrl: 'https://github.com/shomiyagi/data-science',
+    githubUrl: 'https://github.com/shomiyagi/',
   },
 ];
